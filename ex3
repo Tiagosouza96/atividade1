@@ -1,0 +1,9 @@
+# Definindo os valores das vendas
+vendas_janeiro = 120000.00
+vendas_fevereiro = 150000.00
+
+# Calculando o crescimento percentual
+crescimento_percentual = ((vendas_fevereiro - vendas_janeiro) / vendas_janeiro) * 100
+
+# Imprimindo o resultado
+print("Crescimento percentual das vendas: {:.2f}%".format(crescimento_percentual))
