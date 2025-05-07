@@ -1,0 +1,15 @@
+# Definindo os preços unitários dos produtos
+preco_A = 50
+preco_B = 30
+preco_C = 20
+
+# Definindo as quantidades vendidas
+qtd_A = 100
+qtd_B = 150
+qtd_C = 200
+
+# Calculando a receita total
+receita_total = (preco_A * qtd_A) + (preco_B * qtd_B) + (preco_C * qtd_C)
+
+# Imprimindo o resultado
+print("Receita total do mês: R$", receita_total)
