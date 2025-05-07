@@ -13,3 +13,4 @@ receita_total = (preco_A * qtd_A) + (preco_B * qtd_B) + (preco_C * qtd_C)
 
 # Imprimindo o resultado
 print("Receita total do mês: R$", receita_total)
+Receita total do mês: R$ 13500
