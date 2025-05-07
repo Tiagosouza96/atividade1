@@ -1,0 +1,9 @@
+# Definindo o valor em reais e a taxa de câmbio
+valor_reais = 5000.00
+taxa_cambio = 5.25
+
+# Calculando o valor em dólares
+valor_dolares = valor_reais / taxa_cambio
+
+# Imprimindo o resultado com duas casas decimais
+print("Valor em dólares: US$", round(valor_dolares, 2))
