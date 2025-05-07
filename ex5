@@ -1,0 +1,8 @@
+# Lista com as notas de satisfação dos clientes
+notas = [8, 9, 7, 10, 6]
+
+# Cálculo da média
+media = sum(notas) / len(notas)
+
+# Impressão da média com uma casa decimal
+print("Média de satisfação dos clientes: {:.1f}".format(media))
