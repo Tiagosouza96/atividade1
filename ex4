@@ -9,3 +9,5 @@ margem_lucro = (lucro_bruto / receita) * 100
 # Imprimindo os resultados
 print("Lucro bruto: R$ {:.2f}".format(lucro_bruto))
 print("Margem de lucro bruto: {:.2f}%".format(margem_lucro))
+Lucro bruto: R$ 80000.00
+Margem de lucro bruto: 40.00%
