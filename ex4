@@ -1,0 +1,11 @@
+# Definindo receita e custos
+receita = 200000.00
+custos = 120000.00
+
+# Calculando lucro bruto e margem de lucro
+lucro_bruto = receita - custos
+margem_lucro = (lucro_bruto / receita) * 100
+
+# Imprimindo os resultados
+print("Lucro bruto: R$ {:.2f}".format(lucro_bruto))
+print("Margem de lucro bruto: {:.2f}%".format(margem_lucro))
